@@ -16,6 +16,7 @@ Using this, we want to be able to predict if the model sells or not
 
 ### Structure
 
+```
 ├── csv-files                           <- Data gathered and used for the project
 ├── models                              <- The pickled models for deployment.
 ├── notebooks
@@ -29,7 +30,7 @@ Using this, we want to be able to predict if the model sells or not
 ├── models                              <- The pickled models for deployment.
 ├── nft_project.ipynb                   <- Overview of all information about the project
 ├── presentation                        <- The prestation to the stakeholers.
-
+```
 
 ### Author
 Michael Boluro-Ajayi
