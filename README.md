@@ -1,4 +1,4 @@
-# Predicting_Nfts_sales
+# Predicting_NFTs_sales
 ![nft2](https://user-images.githubusercontent.com/84211426/144865210-fcce9d11-eca6-4313-a137-785f061311a3.jpeg)
 
 ### Overview
