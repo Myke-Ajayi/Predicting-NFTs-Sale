@@ -13,9 +13,20 @@ What’s an NFT? An NFT is a unit of data stored on a blockchain that certifies 
 ### Motivation
 
 The data for this project was gathered from OpenSea. OpenSea is the largest marketplace for NFTs and, actually, acts as a 'marketplace for marketplaces'. Using their API, was able to gather about 44,000 data from 2018 to 2021. Then engineer the columns for the target class using the combination of the number of sales; sell orders and the lastsale.eventtype (all these are columns within the data). Since we trying to predict if an NFT wil sell or not, focusing on the sale attributes of the data is the best fit for building a model. 
-After evaluating the test data, the best model hs an accuracy score of 95% and has a type I (prediciting the NFT will sell and not sellin) error of 21 values out of 14k values 
+After evaluating the test data, 
 ##### Data Source: https://docs.opensea.io/reference/api-overview
 
+### Results 
+
+The best model is a Decision Tree model with an accuracy score of 95% and a precision score of 96%. The model as a type I error (prediciting the NFT will sell and not selling) of 103 values out of 14k tokens. And a type II error of 26 values out of 14k tokens i.e predicting it will not sell and actually selling which is a good thing to the seller.
+![confusion matrix](https://user-images.githubusercontent.com/84211426/145226678-a04bd223-1f6e-4de6-8fb4-28d0f6db4e7b.png)
+
+From the model, was able to extract the most important features to pay attention to. 
+![feature importance](https://user-images.githubusercontent.com/84211426/145229052-8d2d0363-9f5d-495f-ad31-91fa1120bc61.png)
+
+
+### Recommendation
+The most important is to improve on older artworks, the older the NFT the more likely is to sell. Also, utilise social media to create fanbase cause the bigger the fanbase the more likely tokens are sold.
 
 ### Structure
 
