@@ -13,7 +13,8 @@ What’s an NFT? An NFT is a unit of data stored on a blockchain that certifies 
 ### Motivation
 
 The data for this project was gathered from OpenSea. OpenSea is the largest marketplace for NFTs and, actually, acts as a 'marketplace for marketplaces'. Using their API, was able to gather about 44,000 data from 2018 to 2021. Then engineer the columns for the target class using the combination of the number of sales; sell orders and the lastsale.eventtype (all these are columns within the data). Since we trying to predict if an NFT wil sell or not, focusing on the sale attributes of the data is the best fit for building a model. 
-After evaluating the test data, 
+
+The main challenges in the NFT space is increased supply and minting fees. When creating NFTs there is an average of about 70 to $600 of minting fees. And an additional charge for storing on the block chain. This adds up on the creator. Also, to add to it due to increased supply majority of these NFTs do not sell; causing an expense for the creators. Using this model, will be able to predict if an NFT will sell or not before spending money and time. 
 ##### Data Source: https://docs.opensea.io/reference/api-overview
 
 ### Results 
